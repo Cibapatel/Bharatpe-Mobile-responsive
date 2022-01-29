@@ -173,7 +173,7 @@ align-items: center;
 .menu-icon{
   display: none;
 }
-@media only screen and (max-width: 700px)
+@media only screen and (max-width: 760px)
 {
   .header{
     width: 100%;
@@ -378,4 +378,31 @@ margin-top: 5px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
+}
+@media only screen and (max-width: 700px) {
+  .body-container {
+    flex-direction: column-reverse;
+    margin: 50px 0;
+  }
+  .to-right {
+    flex-basis: 100%;
+    margin-bottom: 50px;
+  }
+  .to-right .animation1 {
+    width: 77%;
+    margin-left: 50px;
+  }
+  .to-left {
+    flex-basis: 100%;
+  }
+  .to-left .bold-font {
+    font-size: 55px;
+    position: relative;
+    margin-left: 5px;
+  }
+  .descrip .descrip2 {
+    font-size: 15px;
+    position: relative;
+    margin-left: 10px;
+  }
 }
